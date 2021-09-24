@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #3f3f3f;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    padding: 1rem;
+    background-color: rgb(31, 31, 31);
+    margin: 2rem auto;
+    width: 100rem;
+    max-width: 95%;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.__fallback {
+    color: white;
+    text-align: center;
+}
+
+.__head {
+    color: #a892ee;
+    border: 2px solid #a892ee;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    border: 2px solid #a892ee;
+    padding: 1rem;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #a892ee;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.__article {
+    color: #a892ee;
+    border: 2px solid #a892ee;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.__paragraph {
+    color: #a892ee;
+    border: 2px solid #a892ee;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-size: 1rem;
+}
+
+.article_aside {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
