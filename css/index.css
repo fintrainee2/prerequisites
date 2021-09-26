@@ -12,11 +12,6 @@ body {
     background-color: #3f3f3f;
 }
 
-.card {
-    border-radius: 12px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-}
-
 .container {
     padding: 1rem;
     background-color: rgb(31, 31, 31);
@@ -93,4 +88,86 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-around;
+}
+
+.__contact {
+    color: #a892ee;
+    border: 2px solid #a892ee;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.__form {
+    color: #a892ee;
+    border: 2px solid #a892ee;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-size: 1rem;
+}
+
+.__form_head {
+    color: #a892ee;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.input_label {
+    color: #a892ee;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.input_form {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.__input {
+    color: #a892ee;
+    border: 2px solid #a892ee;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 95%;
+}
+
+.submit_button {
+    border: 2px solid #a892ee;
+    background-color: #3a3a3a;
+    padding: 1rem;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #a892ee;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
